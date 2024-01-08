@@ -1,0 +1,76 @@
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    border-radius: 5px;
+    margin-bottom: -20px;
+  }
+ .special-card-details{
+  display: flex;
+  gap:50px
+ }
+  .basic {
+    background-color: #fff;
+  }
+  
+  .premium {
+    background-color: #fff;
+  }
+  
+  .standard {
+    background-color: #fff;
+  }
+  .basic .get-started-button {
+    background-color: #efc90a;
+  }
+  
+  .premium .get-started-button {
+    background-color: #e587ff;
+  }
+  
+  .standard .get-started-button {
+    background-color: #f19813;
+  }
+  .get-started-button {
+    /* background-color: #3498db; */
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+text-align: center;  
+gap:10px}
+  
+  .border {
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+    width: 250px;
+  
+  }
+  
+  .card-details {
+    margin-top: 10px;
+  }
+.initial-price {
+  color:black; /* Set the color for the initial price */
+}
+
+.strike-through {
+  text-decoration: line-through red;
+}
+.special-card {
+  width: 455px;
+  height:200px; 
+  border: none; 
+}
+.freeForeverButton{
+  background-color: #c1f834;
+  border-radius: 21px;
+  border: none;
+  padding: 5px;
+}
+.letsConnectButton{
+  background-color: #37a0ea;
+  border-radius: 21px;
+  border: none;
+  padding: 5px;
+}

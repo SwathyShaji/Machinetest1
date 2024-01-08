@@ -1,0 +1,102 @@
+/* src/Styles/sidebar.css */
+.sidebar-container {
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    height:auto;
+    width: 144px;
+    display: flex;
+    flex-direction: column; /* Make the container a column */
+  }
+  .profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); */
+
+
+  }
+  .icon {
+    color: skyblue; /* Set the initial color */
+    transition: color 0.3s ease;
+    margin-right: 10px; /* Add a smooth transition effect */
+  }
+  
+  .sidebar-container ul li:hover .icon {
+    color: blue; /* Change the color on hover */
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-details::after {
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.1); /* Shadow color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Add shadow effect */
+  }
+  .profile-name {
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: -7px;
+
+  }
+  
+  .profile-email {
+    margin-top: 5px;
+    align-items: center;
+
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 400px; 
+    align-items:"center"
+    /* Add margin between list items and logout button */
+  }
+  
+  
+  li {
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px; 
+    border: 1px solid #CCCCCC;
+
+  }
+  
+  li:hover {
+    background-color: rgb(135, 206, 235);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  } 
+  
+  .logout-button {
+    background-color:rgb(208, 232, 240);
+    height:40px;
+    color: rgb(9, 99, 135);
+    text-align: center;
+    padding: 5px;
+  }
+  
