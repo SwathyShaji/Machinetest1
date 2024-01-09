@@ -44,7 +44,7 @@ const Body = () => {
 
   return (
     <div>
-      <h2 className="plan-heading">Choose a plan that's best for you</h2>
+      <h2 className="plan-heading">Choose a plan that's just right for you</h2>
       <div className="plan-toggle">
         <span className="toggle-label">Monthly</span>
         <label className="switch">
@@ -57,19 +57,19 @@ const Body = () => {
       <div className="cards-container">
         <Card
           type="Basic"
-          price="$9.99/mo"
+          price="$ 9.99/mo"
           initialPrice="$89.99/mo"
           details={basicDetails}
         />
         <Card
           type="Standard"
-          price="$99.99/month"
+          price="$ 99.99/month"
           initialPrice="$189.99/month"
           details={standardDetails}
         />
         <Card
           type="Premium"
-          price="$199.99/mo"
+          price="$ 199.99/mo"
           initialPrice="$389.99/mo"
           details={premiumDetails}
         />

@@ -1,6 +1,8 @@
 // src/components/Header.js
 import React from "react";
 import "../Styles/header.css";
+import { FaChevronDown } from 'react-icons/fa';
+import { IoIosArrowDown } from "react-icons/io";
 
 const Header = () => {
   return (
@@ -17,12 +19,9 @@ const Header = () => {
           <img src="/images/Ram.jpg" alt="User" className="user-avatar" />
           <span className="user-name">XYZ Enterprices pvt.ltd</span>
         </div>
-          
-        <img
-          src="/images/logo.jpg" // Replace with the actual image source
-          alt="Logo"
-          className="logo"
-        />
+        <div className="arrow-box">
+        <IoIosArrowDown style={{width:"43px",height:"23px",marginTop:"10px"}} />
+      </div>
       </div>
 
     </div>

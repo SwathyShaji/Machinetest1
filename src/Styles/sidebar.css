@@ -72,7 +72,7 @@
   ul {
     list-style: none;
     padding: 0;
-    margin-bottom: 400px; 
+    margin-bottom: 280px; 
     align-items:"center"
     /* Add margin between list items and logout button */
   }
@@ -93,10 +93,11 @@
   } 
   
   .logout-button {
-    background-color:rgb(208, 232, 240);
-    height:40px;
+    background-color: rgb(240 246 255);
     color: rgb(9, 99, 135);
     text-align: center;
-    padding: 5px;
-  }
+    padding: 13px;
+    margin-bottom:0px;
+}
+  
   

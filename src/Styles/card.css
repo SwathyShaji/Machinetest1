@@ -1,6 +1,6 @@
 .card {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    padding: 40px;
+    padding: 23px;
     border-radius: 5px;
     margin-bottom: -20px;
   }
@@ -35,6 +35,7 @@
     color: black;
     padding: 10px;
     border: none;
+    margin-bottom: 10px;
     border-radius: 5px;
     cursor: pointer;
 text-align: center;  
@@ -43,7 +44,7 @@ gap:10px}
   .border {
     border-bottom: 1px solid #ccc;
     margin-top: 10px;
-    width: 250px;
+    width: 300px;
   
   }
   
@@ -56,11 +57,13 @@ gap:10px}
 
 .strike-through {
   text-decoration: line-through red;
+  
 }
 .special-card {
-  width: 455px;
-  height:200px; 
-  border: none; 
+  width: 514px;
+  height: 190px;
+  border: none;
+  margin-top: -23px 
 }
 .freeForeverButton{
   background-color: #c1f834;

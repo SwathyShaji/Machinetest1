@@ -47,9 +47,32 @@
   border-radius: 5px;
   margin-top: 115px;
     width: 238px;
-    margin-right: -88px 
+    margin-right: 0; 
 }
 
+.arrow-box {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 3px;
+  margin-left: 8px;
+  margin-top: 115px;
+    margin-right: 21px;
+  /* position: relative; */
+}
+
+/* .arrow-box::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 0;
+  border-color: #666 transparent transparent transparent;
+} */
 .user-avatar {
   width: 30px;
   height: 30px;

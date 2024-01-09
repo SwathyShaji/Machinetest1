@@ -5,6 +5,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { BsCheckAll } from "react-icons/bs";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { BiSolidRightArrow } from "react-icons/bi";
+import { CgArrowLongRight } from "react-icons/cg";
 
 
 import "../Styles/card.css";
@@ -28,19 +29,19 @@ const Card = ({ type, price, specialdetails, details, initialPrice }) => {
             )}
           </>
         )}{" "}
-        <h3>{type}</h3>
+        <h2 style={{marginBottom:"5px",marginTop:"5px"}}>{type}</h2>
         {initialPrice && !isSpecialCard && (
-          <p className="initial-price">
+          <span className="initial-price"style={{marginTop:"5px"}}>
             <span className="strike-through">{initialPrice}</span>
-          </p>
+          </span>
         )}
         {!isSpecialCard && (
           <>
-            <p>{price}</p>
+            <p style={{fontSize:"20PX",marginTop:"5px"}}>{price}</p>
             <button className="get-started-button">
               Get Started
               <span style={{ marginLeft: "8px" }}>
-                <FaArrowRightLong />
+              <CgArrowLongRight />
               </span>
             </button>
             <div className="border"></div>
@@ -60,18 +61,18 @@ const Card = ({ type, price, specialdetails, details, initialPrice }) => {
               </span>
 
               <button
-                className="get-started-button"
-                style={{
-                  backgroundColor:
-                    type === "Free Starter" ? " #c1f834" : " #37a0ea",
-                }}
-              >
-                {" "}
-                {type === "Free Starter" ? "Get Started" : "Contact us"}
-              </button>
+        className="get-started-button"
+        style={{
+          backgroundColor: type === "Free Starter" ? "#c1f834" : "#37a0ea",
+        }}
+      >
+        {type === "Free Starter" ? "Get Started" : "Contact us"}{' '}
+        <FaArrowRightLong />
+
+      </button>
             </div>
 
-            <div style={{ marginTop: "-100px" }}>
+            <div style={{ marginTop: "-90px" }}>
               <p>What you'll get:</p>
               {typeof specialdetails === "string" ? (
                 <p>{details}</p>
