@@ -37,27 +37,31 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: 0.4s;
+  background-color:white;
   transition: 0.4s;
-  border-radius: 34px;
+  border-radius: 27px;
+  margin-left: -136px;
+  border: 2px solid black;
 }
 
 .slider:before {
   position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
+  /* padding: 10px; */
+  content: "Monthly";
+  font-size: small;
+  text-align: center;
+  height: 23px;
+  width: 50%;
+  /* right: 18px; */
   left: 4px;
   bottom: 4px;
-  background-color: white;
-  -webkit-transition: 0.4s;
+  background-color: #deeeff;
   transition: 0.4s;
-  border-radius: 50%;
+  border-radius: 43%;
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: white;
 }
 
 input:focus + .slider {
@@ -65,9 +69,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+  -webkit-transform: translateX(80px);
+  -ms-transform: translateX(80px);
+  transform: translateX(80px);
 }
 
 .toggle-label {

@@ -46,12 +46,12 @@ const Body = () => {
     <div>
       <h2 className="plan-heading">Choose a plan that's just right for you</h2>
       <div className="plan-toggle">
-        <span className="toggle-label">Monthly</span>
+        <span className="toggle-label"></span>
         <label className="switch">
           <input type="checkbox" />
           <span className="slider"></span>
         </label>
-        <span className="toggle-label">Annually</span>
+        <span className="toggle-label"></span>
       </div>
 
       <div className="cards-container">

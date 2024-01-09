@@ -6,6 +6,7 @@ import { PiPottedPlantFill, PiPuzzlePieceFill } from "react-icons/pi";
 import { FaComments } from "react-icons/fa";
 import { GrDocumentUser } from "react-icons/gr";
 import { RiLogoutCircleRLine } from "react-icons/ri";
+import { RiArrowRightSLine } from "react-icons/ri";
 
 const Sidebar = () => {
   return (
@@ -15,7 +16,7 @@ const Sidebar = () => {
           <img src="/images/Ram.jpg" alt="Profile" className="profile-photo" />
         </div>
         <div className="profile-details">
-          <span className="profile-name">Ram mohan</span>
+          <span className="profile-name">Ram mohan<RiArrowRightSLine style={{color:"blue",marginBottom:"-4px"}}/></span>
           <span className="profile-email">rammohan@example.com</span>
         </div>
       </div>
