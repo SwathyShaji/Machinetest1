@@ -1,7 +1,7 @@
 // src/components/Header.js
 import React from "react";
 import "../Styles/header.css";
-import { FaChevronDown } from 'react-icons/fa';
+import { FaChevronDown } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 
 const Header = () => {
@@ -20,10 +20,11 @@ const Header = () => {
           <span className="user-name">XYZ Enterprices pvt.ltd</span>
         </div>
         <div className="arrow-box">
-        <IoIosArrowDown style={{width:"43px",height:"23px",marginTop:"10px"}} />
+          <IoIosArrowDown
+            style={{ width: "43px", height: "23px", marginTop: "10px" }}
+          />
+        </div>
       </div>
-      </div>
-
     </div>
   );
 };

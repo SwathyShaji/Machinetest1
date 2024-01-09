@@ -45,10 +45,10 @@ const Sidebar = () => {
       </ul>
 
       <div className="logout-button">
-      <div className="centered-content">
-        logout <RiLogoutCircleRLine />
+        <div className="centered-content">
+          logout <RiLogoutCircleRLine />
+        </div>
       </div>
-    </div>
     </div>
   );
 };

@@ -1,42 +1,36 @@
-/* src/components/Header.css */
 .dashboard-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-   
-    height: 100px; /* Set a fixed height for the header */
-  }
-  .profile-info {
-    display: flex;
-    align-items: center;
-    width:12%;
-  
-  }
-  
-  .logo-photo {
-    width: 100%;
-    height: 100%;
-    margin-right: 10px;
-  }
-  
-  .profile-name {
-    font-weight: bold;
-  }
-  
- 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
+}
+.profile-info {
+  display: flex;
+  align-items: center;
+  width: 12%;
+}
+
+.logo-photo {
+  width: 100%;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
 .logo-container {
   display: flex;
   align-items: center;
   width: 88%;
   border-radius: 5px;
   height: 0px;
-  border-bottom: 122px solid #CCE5FF;
+  border-bottom: 122px solid #cce5ff;
   border-left: 71px solid transparent;
   border-right: 0px solid transparent;
   justify-content: flex-end; /* Updated to align items to the end */
-
 }
 
 .user-info {
@@ -46,8 +40,8 @@
   padding: 8px;
   border-radius: 5px;
   margin-top: 115px;
-    width: 238px;
-    margin-right: 0; 
+  width: 238px;
+  margin-right: 0;
 }
 
 .arrow-box {
@@ -57,7 +51,7 @@
   border-radius: 3px;
   margin-left: 8px;
   margin-top: 115px;
-    margin-right: 21px;
+  margin-right: 21px;
   /* position: relative; */
 }
 
@@ -85,11 +79,7 @@
   margin-right: 8px;
 }
 
-
-  
-  
-  .logo {
-    width: 150px;
-    height: 60px;
-  }
-  
+.logo {
+  width: 150px;
+  height: 60px;
+}

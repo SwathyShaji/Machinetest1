@@ -7,7 +7,6 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { BiSolidRightArrow } from "react-icons/bi";
 import { CgArrowLongRight } from "react-icons/cg";
 
-
 import "../Styles/card.css";
 
 const Card = ({ type, price, specialdetails, details, initialPrice }) => {
@@ -29,19 +28,19 @@ const Card = ({ type, price, specialdetails, details, initialPrice }) => {
             )}
           </>
         )}{" "}
-        <h2 style={{marginBottom:"5px",marginTop:"5px"}}>{type}</h2>
+        <h2 style={{ marginBottom: "5px", marginTop: "5px" }}>{type}</h2>
         {initialPrice && !isSpecialCard && (
-          <span className="initial-price"style={{marginTop:"5px"}}>
+          <span className="initial-price" style={{ marginTop: "5px" }}>
             <span className="strike-through">{initialPrice}</span>
           </span>
         )}
         {!isSpecialCard && (
           <>
-            <p style={{fontSize:"20PX",marginTop:"5px"}}>{price}</p>
+            <p style={{ fontSize: "20PX", marginTop: "5px" }}>{price}</p>
             <button className="get-started-button">
               Get Started
               <span style={{ marginLeft: "8px" }}>
-              <CgArrowLongRight />
+                <CgArrowLongRight />
               </span>
             </button>
             <div className="border"></div>
@@ -61,15 +60,15 @@ const Card = ({ type, price, specialdetails, details, initialPrice }) => {
               </span>
 
               <button
-        className="get-started-button"
-        style={{
-          backgroundColor: type === "Free Starter" ? "#c1f834" : "#37a0ea",
-        }}
-      >
-        {type === "Free Starter" ? "Get Started" : "Contact us"}{' '}
-        <FaArrowRightLong />
-
-      </button>
+                className="get-started-button"
+                style={{
+                  backgroundColor:
+                    type === "Free Starter" ? "#c1f834" : "#37a0ea",
+                }}
+              >
+                {type === "Free Starter" ? "Get Started" : "Contact us"}{" "}
+                <FaArrowRightLong />
+              </button>
             </div>
 
             <div style={{ marginTop: "-90px" }}>
@@ -105,11 +104,24 @@ const Card = ({ type, price, specialdetails, details, initialPrice }) => {
                 </div>
               ))
             )}
-           
-      <p className="explore-features" style={{display:"flex",alignItems:"center"}}>
-  <u >EXPLORE FEATURES</u>
-  <BiSolidRightArrow style={{ color: type === "Basic" ? "#efc90a" : type === "Premium" ? "#e587ff" : "#f19813" ,marginLeft:"1px"}} />
-</p>
+
+            <p
+              className="explore-features"
+              style={{ display: "flex", alignItems: "center" }}
+            >
+              <u>EXPLORE FEATURES</u>
+              <BiSolidRightArrow
+                style={{
+                  color:
+                    type === "Basic"
+                      ? "#efc90a"
+                      : type === "Premium"
+                      ? "#e587ff"
+                      : "#f19813",
+                  marginLeft: "1px",
+                }}
+              />
+            </p>
           </>
         )}
       </div>
