@@ -5,21 +5,21 @@ import "../Styles/body.css";
 
 const Body = () => {
   const basicDetails = [
-    { icon: "user", label: "User", text: "Up to 25 users" },
-    { icon: "cloud", label: "Cloud", text: "Up to 25GB storage" },
+    { icon: "user", label: "User", text: "Upto 25 users" },
+    { icon: "cloud", label: "Cloud", text: "Upto 25GB storage" },
     { icon: "email", label: "Email", text: "Email Support" },
   ];
 
   const standardDetails = [
-    { icon: "user", label: "User", text: "Up to 50 users" },
-    { icon: "cloud", label: "Cloud", text: "Up to 50GB storage" },
-    { icon: "email", label: "Email", text: "Priority Email Support" },
+    { icon: "user", label: "User", text: "Upto 50 users" },
+    { icon: "cloud", label: "Cloud", text: "Upto 60GB storage" },
+    { icon: "email", label: "Email", text: " Email+Chat Support" },
   ];
 
   const premiumDetails = [
-    { icon: "user", label: "User", text: "Unlimited users" },
-    { icon: "cloud", label: "Cloud", text: "Unlimited storage" },
-    { icon: "email", label: "Email", text: "24/7 Premium Support" },
+    { icon: "user", label: "User", text: "Upto 75 users" },
+    { icon: "cloud", label: "Cloud", text: "Upto 100GB storage" },
+    { icon: "email", label: "Email", text: "Email+Chat+Whatsapp Support" },
   ];
 
   const freeDetails = [
@@ -58,19 +58,19 @@ const Body = () => {
         <Card
           type="Basic"
           price="$9.99/mo"
-          initialPrice="$19.99/mo"
+          initialPrice="$89.99/mo"
           details={basicDetails}
         />
         <Card
           type="Standard"
           price="$99.99/month"
-          initialPrice="$129.99/month"
+          initialPrice="$189.99/month"
           details={standardDetails}
         />
         <Card
           type="Premium"
           price="$199.99/mo"
-          initialPrice="$249.99/mo"
+          initialPrice="$389.99/mo"
           details={premiumDetails}
         />
         <Card type="Free Starter" specialdetails={freeDetails} />

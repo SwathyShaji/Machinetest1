@@ -17,13 +17,14 @@ const Header = () => {
           <img src="/images/Ram.jpg" alt="User" className="user-avatar" />
           <span className="user-name">XYZ Enterprices pvt.ltd</span>
         </div>
-
+          
         <img
           src="/images/logo.jpg" // Replace with the actual image source
           alt="Logo"
           className="logo"
         />
       </div>
+
     </div>
   );
 };

@@ -4,6 +4,8 @@ import { TiCloudStorageOutline } from "react-icons/ti";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsCheckAll } from "react-icons/bs";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { BiSolidRightArrow } from "react-icons/bi";
+
 
 import "../Styles/card.css";
 
@@ -102,9 +104,11 @@ const Card = ({ type, price, specialdetails, details, initialPrice }) => {
                 </div>
               ))
             )}
-            <p className="explore-features">
-              <u>EXPLORE FEATURES</u>
-            </p>
+           
+      <p className="explore-features" style={{display:"flex",alignItems:"center"}}>
+  <u >EXPLORE FEATURES</u>
+  <BiSolidRightArrow style={{ color: type === "Basic" ? "#efc90a" : type === "Premium" ? "#e587ff" : "#f19813" ,marginLeft:"1px"}} />
+</p>
           </>
         )}
       </div>
