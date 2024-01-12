@@ -44,7 +44,7 @@ const Body = () => {
 
   return (
     <div>
-      <h2 className="plan-heading">Choose a plan that's just right for you</h2>
+      <h2 className="plan-heading">Choose a plan that's just right for you!</h2>
       <div className="plan-toggle">
         <span className="toggle-label"></span>
         <label className="switch">

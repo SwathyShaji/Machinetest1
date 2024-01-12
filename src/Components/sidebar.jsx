@@ -16,8 +16,8 @@ const Sidebar = () => {
           <img src="/images/Ram.jpg" alt="Profile" className="profile-photo" />
         </div>
         <div className="profile-details">
-          <span className="profile-name">Ram mohan<RiArrowRightSLine style={{color:"blue",marginBottom:"-4px"}}/></span>
-          <span className="profile-email">rammohan@example.com</span>
+          <span className="profile-name">Ram Mohan<RiArrowRightSLine style={{color:"blue",marginBottom:"-4px"}}/></span>
+          <span className="profile-email">rammohan2@gmail.com</span>
         </div>
       </div>
       <div className="profile-border"></div>
