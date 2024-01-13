@@ -12,6 +12,7 @@ function App() {
       <div className="app-container">
         <Sidebar />
         <Body />
+        <div style={{width:"60px",backgroundColor:"#deeeff"}}></div>
        </div>
     </>
   );

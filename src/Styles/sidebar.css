@@ -50,9 +50,9 @@
   left: 0;
   width: 182px;
   height: 3px;
-  background-color: rgba(0, 0, 0, 0.1); /* Shadow color */
+  background-color: rgba(0, 0, 0, 0.1); 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-top: 30px; /* Add shadow effect */
+  margin-top: 30px; 
 }
 .profile-sidebar-name {
   font-weight: bold;
@@ -67,7 +67,7 @@
 ul {
   list-style: none;
   padding: 0;
-  margin-bottom: 280px;
+  margin-bottom: 307px;
   align-items: center;
   margin-top: 0px;
 }
@@ -86,15 +86,16 @@ li:hover {
 }
 
 .logout-button {
-  background-color: rgb(240 246 255);
+  background-color: rgb(250 252 255);
   color: rgb(9, 99, 135);
   text-align: center;
-  padding: 13px;
-  margin-bottom: 0px;
+  padding: 12px;
+  margin-bottom: -20px;
+  width: 165px;
+  margin-left: -25px;
 }
-@media only screen and (max-width: 600px) {
-
- ul{
-  margin-bottom: 0px;
- }
+@media only screen and (max-width: 1025px) {
+  ul {
+    margin-bottom: 0px;
+  }
 }

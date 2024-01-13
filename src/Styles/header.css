@@ -55,18 +55,6 @@
   /* position: relative; */
 }
 
-/* .arrow-box::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(45deg);
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 5px 5px 0 0;
-  border-color: #666 transparent transparent transparent;
-} */
 .user-avatar {
   width: 30px;
   height: 30px;
@@ -85,30 +73,25 @@
 }
 @media only screen and (max-width: 768px) {
   .logo-container {
-    border-left: 125px solid transparent;
-
+    border-left: 295px solid transparent;
   }
-  .profile-info{
-    margin-left: 128px;
+  .profile-info {
+    margin-left: 131px;
   }
-  .logo-photo{
-    width:1000px;
+  .logo-photo {
+    width: 1000px;
     margin-left: -127px;
   }
 }
-@media only screen and  (max-width:376px) {
+@media only screen and (max-width: 381px) {
   .logo-container {
-    border-left: 150px solid transparent;
-
+    border-left: 313px solid transparent;
   }
- 
 }
-@media only screen and  (max-width:321px) {
+@media only screen and (max-width: 321px) {
   .logo-container {
     border-left: 232px solid transparent;
-
   }
- 
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .logo-container {
@@ -121,7 +104,7 @@
     margin-left: -85px;
   }
 }
-@media only screen and (min-width: 911px) and (max-width:1300px ) {
+@media only screen and (min-width: 911px) and (max-width: 1300px) {
   .logo-container {
     border-left: 56px solid transparent;
   }
@@ -132,5 +115,3 @@
     margin-left: -44px;
   }
 }
-
-

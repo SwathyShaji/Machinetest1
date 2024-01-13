@@ -3,13 +3,12 @@
   padding: 20px;
   border-radius: 8px;
   margin-bottom: -20px;
-  
 }
 .special-card-details {
   display: flex;
   gap: 50px;
 }
-.typeheading{
+.typeheading {
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -74,7 +73,7 @@
   border: none;
   padding: 5px;
 }
-.card-header{
+.card-header {
   max-width: 420px;
 }
 .letsConnectButton {
@@ -83,31 +82,45 @@
   border: none;
   padding: 5px;
 }
+h2 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 0; /* Default margin */
+}
+.icon-with-margin {
+  margin-bottom: -2px;
+}
+
+
 @media only screen and (max-width: 600px) {
-   .card{
-    width:85%;
-    text-align: center;
-  } 
-  .explore-features{
-    margin-left:116px;
+  .special-card h2 {
+    margin-left: -231px;
   }
-  .border{
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    text-align: center;
+  }
+  .explore-features {
+    margin-left: 116px;
+  }
+  .border {
     width: 382px;
   }
-  .letsConnectButton{
-    margin-left: -166px;
+  .letsConnectButton {
+    margin-left: -301px;
+    margin-top: 0px;
   }
-  .freeForeverButton{
-    margin-left: -166px;
-
+  .freeForeverButton {
+    margin-left: -273px;
   }
-  .card-details{
-    margin-top:-8px;
+  .card-details {
+    margin-top: -8px;
   }
-  .typeheading{
+  .typeheading {
     margin-left: -160px;
   }
-  .special-card{
+  .special-card {
     margin-top: 4px;
   }
 }

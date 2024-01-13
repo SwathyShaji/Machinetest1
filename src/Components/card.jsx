@@ -28,7 +28,7 @@ const Card = ({ type, price, specialdetails, details, initialPrice }) => {
             )}
           </>
         )}{" "}
-        <h2 style={{ marginBottom: "5px", marginTop: "5px" }}>{type}</h2>
+        <h2>{type}</h2>
         {initialPrice && !isSpecialCard && (
           <span className="initial-price" style={{ marginTop: "5px" }}>
             <span className="strike-through">{initialPrice}</span>
@@ -40,7 +40,7 @@ const Card = ({ type, price, specialdetails, details, initialPrice }) => {
             <button className="get-started-button">
               Get Started
               <span style={{ marginLeft: "8px" }}>
-                <CgArrowLongRight style={{marginBottom:"-2px"}} />
+                <CgArrowLongRight style={{ marginBottom: "-2px" }} />
               </span>
             </button>
             <div className="border"></div>
@@ -67,7 +67,7 @@ const Card = ({ type, price, specialdetails, details, initialPrice }) => {
                 }}
               >
                 {type === "Free Starter" ? "Get Started" : "Contact us"}{" "}
-                <FaArrowRightLong  style={{marginBottom:"-2px"}} />
+                <FaArrowRightLong style={{ marginBottom: "-2px" }} />
               </button>
             </div>
 
@@ -78,10 +78,18 @@ const Card = ({ type, price, specialdetails, details, initialPrice }) => {
               ) : (
                 specialdetails.map((detail, index) => (
                   <div key={index} className="detail-item">
-                    {detail.icon === "user" && <LiaUserSolid />}
-                    {detail.icon === "cloud" && <TiCloudStorageOutline />}
-                    {detail.icon === "email" && <MdOutlineEmail />}
-                    {detail.icon === "tick" && <BsCheckAll />}
+                    {detail.icon === "user" && (
+                      <LiaUserSolid className="icon-with-margin" />
+                    )}
+                    {detail.icon === "cloud" && (
+                      <TiCloudStorageOutline className="icon-with-margin" />
+                    )}
+                    {detail.icon === "email" && (
+                      <MdOutlineEmail className="icon-with-margin" />
+                    )}
+                    {detail.icon === "tick" && (
+                      <BsCheckAll className="icon-with-margin" />
+                    )}
 
                     <span style={{ marginLeft: "10px" }}>{detail.text}</span>
                   </div>
@@ -97,9 +105,15 @@ const Card = ({ type, price, specialdetails, details, initialPrice }) => {
             ) : (
               details.map((detail, index) => (
                 <div key={index} className="detail-item">
-                  {detail.icon === "user" && <LiaUserSolid />}
-                  {detail.icon === "cloud" && <TiCloudStorageOutline />}
-                  {detail.icon === "email" && <MdOutlineEmail />}
+                  {detail.icon === "user" && (
+                    <LiaUserSolid className="icon-with-margin" />
+                  )}
+                  {detail.icon === "cloud" && (
+                    <TiCloudStorageOutline className="icon-with-margin" />
+                  )}
+                  {detail.icon === "email" && (
+                    <MdOutlineEmail className="icon-with-margin" />
+                  )}
                   <span style={{ marginLeft: "10px" }}>{detail.text}</span>
                 </div>
               ))

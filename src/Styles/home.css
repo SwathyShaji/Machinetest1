@@ -7,7 +7,7 @@
 .plan-heading {
   text-align: left;
   margin-top: 50px;
-  margin-left: 62px;
+  margin-left: 77px;
 }
 
 .plan-toggle {
@@ -97,5 +97,9 @@ input:checked + .slider:before {
  .slider{
   margin-right: 85px;
  }
+.switch{
+  margin-left: 281px;
+    margin-top: 15px;
+}
 
 }

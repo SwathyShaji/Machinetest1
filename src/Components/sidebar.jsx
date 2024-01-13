@@ -16,7 +16,12 @@ const Sidebar = () => {
           <img src="/images/Ram.jpg" alt="Profile" className="profile-photo" />
         </div>
         <div className="profile-details">
-          <span className="profile-sidebar-name">Ram Mohan<RiArrowRightSLine style={{color:"blue",marginBottom:"-4px"}}/></span>
+          <span className="profile-sidebar-name">
+            Ram Mohan
+            <RiArrowRightSLine
+              style={{ color: "blue", marginBottom: "-4px" }}
+            />
+          </span>
           <span className="profile-email">rammohan2@gmail.com</span>
         </div>
       </div>
@@ -47,7 +52,7 @@ const Sidebar = () => {
 
       <div className="logout-button">
         <div className="centered-content">
-          logout <RiLogoutCircleRLine />
+          logout <RiLogoutCircleRLine style={{marginBottom:"-2px"}} />
         </div>
       </div>
     </div>
