@@ -18,7 +18,7 @@ const Card = ({ type, price, specialdetails, details, initialPrice }) => {
         isSpecialCard ? "special-card" : ""
       }`}
     >
-      <div className="card-header" style={{ maxWidth: "420px" }}>
+      <div className="card-header">
         {isSpecialCard && (
           <>
             {type === "Free Starter" ? (
@@ -40,7 +40,7 @@ const Card = ({ type, price, specialdetails, details, initialPrice }) => {
             <button className="get-started-button">
               Get Started
               <span style={{ marginLeft: "8px" }}>
-                <CgArrowLongRight />
+                <CgArrowLongRight style={{marginBottom:"-2px"}} />
               </span>
             </button>
             <div className="border"></div>
@@ -67,7 +67,7 @@ const Card = ({ type, price, specialdetails, details, initialPrice }) => {
                 }}
               >
                 {type === "Free Starter" ? "Get Started" : "Contact us"}{" "}
-                <FaArrowRightLong />
+                <FaArrowRightLong  style={{marginBottom:"-2px"}} />
               </button>
             </div>
 

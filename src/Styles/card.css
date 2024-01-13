@@ -9,6 +9,10 @@
   display: flex;
   gap: 50px;
 }
+.typeheading{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 .basic {
   background-color: #fff;
 }
@@ -70,9 +74,40 @@
   border: none;
   padding: 5px;
 }
+.card-header{
+  max-width: 420px;
+}
 .letsConnectButton {
   background-color: #37a0ea;
   border-radius: 21px;
   border: none;
   padding: 5px;
+}
+@media only screen and (max-width: 600px) {
+   .card{
+    width:85%;
+    text-align: center;
+  } 
+  .explore-features{
+    margin-left:116px;
+  }
+  .border{
+    width: 382px;
+  }
+  .letsConnectButton{
+    margin-left: -166px;
+  }
+  .freeForeverButton{
+    margin-left: -166px;
+
+  }
+  .card-details{
+    margin-top:-8px;
+  }
+  .typeheading{
+    margin-left: -160px;
+  }
+  .special-card{
+    margin-top: 4px;
+  }
 }

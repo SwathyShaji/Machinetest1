@@ -1,7 +1,6 @@
-// src/components/Body.js
 import React from "react";
 import Card from "./card";
-import "../Styles/body.css";
+import "../Styles/home.css";
 
 const Body = () => {
   const basicDetails = [
@@ -44,12 +43,13 @@ const Body = () => {
 
   return (
     <div>
-      <h2 className="plan-heading">Choose a plan that's just right for you!</h2>
+      <h2 className="plan-heading">Choose a plan that's just right for you !</h2>
       <div className="plan-toggle">
         <span className="toggle-label"></span>
         <label className="switch">
           <input type="checkbox" />
-          <span className="slider"></span>
+          <span className="slider"><label style={{right:"30px",position:"absolute",top:"5px",fontSize:"small"}} >Annually</label>
+          </span><label style={{right:"216px",position:"absolute",top:"5px",fontSize:"small"}} >Monthly</label>
         </label>
         <span className="toggle-label"></span>
       </div>

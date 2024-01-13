@@ -20,7 +20,7 @@
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
+  width: 300px;
   height: 34px;
 }
 
@@ -40,9 +40,9 @@
   background-color:white;
   transition: 0.4s;
   border-radius: 27px;
-  margin-left: -215x;
-  margin-left: -225px;
-    margin-right: 42px;
+  /* margin-left: -215x; */
+  /* margin-left: -225px; */
+    margin-right: 60px;
   /* margin-right:0px; */
   border: 2px solid black;
 }
@@ -50,18 +50,22 @@
 .slider:before {
   position: absolute;
   /* padding: 10px; */
-  content: "Monthly";
+  content: "";
   font-size: small;
   text-align: center;
-  height: 23px;
+  height: 27px;
   width: 50%;
   /* right: 18px; */
-  left: 4px;
-  bottom: 4px;
+  left: 0px;
+  bottom: 2px;
   background-color: #deeeff;
   transition: 0.4s;
-  border-radius: 43%;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 input:checked + .slider {
   background-color: white;
@@ -72,11 +76,26 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(80px);
-  -ms-transform: translateX(80px);
-  transform: translateX(80px);
+  -webkit-transform: translateX(120px);
+  -ms-transform: translateX(120px);
+  transform: translateX(120px);
 }
 
 .toggle-label {
   margin: 0 10px;
+}
+@media only screen and (max-width: 600px) {
+  .plan-heading {
+    text-align: center;
+    margin-left: 33px;
+ } 
+ input:checked + .slider:before {
+  -webkit-transform: translateX(100px);
+  -ms-transform: translateX(100px);
+  transform: translateX(100px);
+}
+ .slider{
+  margin-right: 85px;
+ }
+
 }
