@@ -94,7 +94,7 @@ li:hover {
   width: 165px;
   margin-left: -25px;
 }
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1300px) {
   ul {
     margin-bottom: 0px;
   }

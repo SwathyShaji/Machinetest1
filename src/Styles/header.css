@@ -90,7 +90,7 @@
 }
 @media only screen and (max-width: 321px) {
   .logo-container {
-    border-left: 232px solid transparent;
+    border-left: 405px solid transparent;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
